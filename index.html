@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="High-converting website template for local businesses to get more calls, bookings, and walk-ins."
+    />
+
+    <link rel="icon" href="./favicon.ico" />
+
+    <title>Local Business Template</title>
+  </head>
+
+  <body>
+
+    <!-- Info Bar -->
+    <div class="info-bar" id="info-bar">
+      <div class="info-content">
+        <span class="info-tag">NEW</span>
+
+        <p>
+          🔥 Walk-ins welcome today —
+          <a href="#contact">Learn more</a>
+        </p>
+      </div>
+
+      <button
+        class="info-close"
+        id="info-close"
+        aria-label="Close notification"
+      >
+        &times;
+      </button>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+
+      <div class="nav-logo" data-business="name">
+        MoM & PoP
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#map">Location</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+
+        <!-- Theme Toggle -->
+        <button
+          id="themeToggle"
+          class="theme-toggle"
+          aria-label="Toggle Theme"
+        >
+          <span class="theme-dot"></span>
+        </button>
+
+        <!-- Mobile Toggle -->
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation menu"
+          id="nav-toggle"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="home">
+
+      <div class="hero-content">
+
+        <div class="hero-glow"></div>
+
+        <h1 class="hero-title">
+          Your Business
+          <br />
+          <em class="accent">Front and Center</em>
+        </h1>
+
+        <p class="hero-subtitle">
+          More walk-ins. More calls. More bookings.
+          <br />
+          A high-converting website curated to your needs.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#map" class="btn secondary">
+            📍 Get Directions
+          </a>
+
+          <a href="tel:+18135551234" class="btn primary">
+            📞 Call Now <span data-phone></span>
+          </a>
+        </div>
+
+        <p class="hero-proof">
+          Built for entrepreneurs, restaurants, and local shops ready to grow.
+          <em class="accent">No Paid Ads</em>
+        </p>
+
+      </div>
+
+      <div class="hero-visual">
+        <div class="visual-placeholder"></div>
+      </div>
+
+    </header>
+
+    <!-- Quick Info -->
+    <section class="quick-info">
+
+      <div class="info-item">🟢 Open Now</div>
+
+      <div class="info-item">
+        📍 <span data-address>123 Main St, Tampa FL</span>
+      </div>
+
+      <div class="info-item">
+        📞 (813) 555-1234
+      </div>
+
+      <div class="info-item">
+        ⭐ 4.8 Rating (120+ Reviews)
+      </div>
+
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+
+      <div class="section-header">
+        <h2 class="section-title">
+          What this System Does
+        </h2>
+
+        <p>Tailored solutions for your digital growth</p>
+      </div>
+
+      <div class="services-grid">
+
+        <div class="service-card">
+          <div class="service-icon">📞</div>
+
+          <h3>Drive More Calls</h3>
+
+          <p>
+            Easier for customers to contact you instantly.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">📱</div>
+
+          <h3>Increase Bookings</h3>
+
+          <p>
+            Turn visitors into scheduled appointments effortlessly.
+          </p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🚀</div>
+
+          <h3>Get More Walk-Ins</h3>
+
+          <p>
+            Embedded maps and clear visibility help customers find you fast.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Reviews -->
+    <section class="reviews" id="reviews">
+
+      <div class="section-header">
+        <h2 class="section-title">
+          Trusted by Local Businesses
+        </h2>
+
+        <p>Real results from real businesses</p>
+      </div>
+
+      <div class="reviews-grid">
+
+        <div class="review-card">
+
+          <div class="review-rating">★★★★★</div>
+
+          <p class="review-text">
+            This brought in more customers within the first week.
+            Super clean and easy.
+          </p>
+
+          <div class="reviewer-info">
+
+            <div class="reviewer-avatar">CM</div>
+
+            <div>
+              <h4 class="reviewer-name">Carlos M.</h4>
+
+              <span class="reviewer-title">
+                Barber Shop Owner
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="review-card">
+
+          <div class="review-rating">★★★★★</div>
+
+          <p class="review-text">
+            Customers can finally find us and book easily.
+            Huge upgrade.
+          </p>
+
+          <div class="reviewer-info">
+
+            <div class="reviewer-avatar">JS</div>
+
+            <div>
+              <h4 class="reviewer-name">Jessica S.</h4>
+
+              <span class="reviewer-title">
+                Salon Owner
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="review-card">
+
+          <div class="review-rating">★★★★★</div>
+
+          <p class="review-text">
+            Professional, modern, and actually helped us grow.
+          </p>
+
+          <div class="reviewer-info">
+
+            <div class="reviewer-avatar">AN</div>
+
+            <div>
+              <h4 class="reviewer-name">Ann R.</h4>
+
+              <span class="reviewer-title">
+                Boutique Owner
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- Map -->
+    <section class="map" id="map">
+
+      <div class="section-header">
+
+        <h2 class="section-title">Find Us</h2>
+
+        <p>Easy directions to our doors</p>
+
+        <p>
+          Just minutes away — tap below for directions.
+        </p>
+
+      </div>
+
+      <div class="map-container">
+
+        <iframe
+          src="https://www.google.com/maps?q=Tampa&output=embed"
+          width="100%"
+          height="300"
+          style="border: 0"
+          loading="lazy"
+          allowfullscreen
+        ></iframe>
+
+      </div>
+
+      <a
+        href="https://www.google.com/maps?q=Tampa"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn primary"
+      >
+        Open in Google Maps
+      </a>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+      <div class="section-header">
+
+        <h2 class="section-title">
+          Ready to Get More Customers?
+        </h2>
+
+        <p>
+          Let’s build something that works for your business.
+        </p>
+
+      </div>
+
+      <div class="contact-action">
+
+        <a href="tel:+18135551234" class="btn primary">
+          Call Now
+        </a>
+
+        <a href="#map" class="btn secondary">
+          Visit Us
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- Contact Form -->
+    <div class="contact-form-container">
+      <!-- Replace with your FormSpree endpoint -->
+        <!--
+        https://formspree.io
+        create Formspree account
+        paste your endpoint
+        done
+        -->
+
+      <form
+        class="contact-form"
+        action="https://formspree.io/f/your-id"
+        method="POST"
+      >
+
+        <div class="form-group">
+
+          <label for="name">
+            Full Name
+          </label>
+
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+          />
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="email">
+            Email Address
+          </label>
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+          />
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="business">
+            Business / Organization
+          </label>
+
+          <input
+            type="text"
+            id="business"
+            name="business"
+            placeholder="Business name"
+          />
+
+        </div>
+
+        <div class="form-group">
+
+          <label for="message">
+            Project Goals
+          </label>
+
+          <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Tell us about your business goals and what you're looking to improve..."
+            required
+          ></textarea>
+
+          <p class="form-note">
+            No pressure — tell us about your goals and we’ll reach out with next steps.
+          </p>
+
+        </div>
+
+        <button type="submit" class="btn primary">
+          Submit Inquiry
+        </button>
+
+      </form>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <div class="footer-container">
+
+        <div class="footer-brand">
+
+          <h3>YourBusiness</h3>
+
+          <p>
+            Helping local businesses get more customers with high-converting websites.
+          </p>
+
+          <div class="social-icons">
+
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              LN
+            </a>
+
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+            >
+              IG
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-nav">
+
+          <h4>Quick Links</h4>
+
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Work With Us</a></li>
+          </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4>Get In Touch</h4>
+
+          <p>hello@yourbusiness.com</p>
+
+          <p>Brandon, FL</p>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>
+          &copy;2023 -
+        <span id="current-year"></span> YourBusiness. All rights reserved.
+        </p>
+
+        <div class="legal-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+
+      </div>
+
+    </footer>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
