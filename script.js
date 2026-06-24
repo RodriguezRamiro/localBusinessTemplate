@@ -1,4 +1,7 @@
-/ --- Centralized Config ---
+/* //LocalBizzTemplate/script.js */
+
+/* Centrilized Config */
+
 const CONFIG = {
   businessName: "MoM & PoP",
   phone: "18135551234",
